@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Employees.Models\EmployeesPortal.Models.csproj" />
+    <ProjectReference Include="..\EmployeesPortal.Repository\EmployeesPortal.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
